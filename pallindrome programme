@@ -1,0 +1,10 @@
+str='121'
+s=list(str)
+m=s[::-1]
+n=s[::]
+print(m)
+print(n)
+if(m==n):
+  print('this no. is pallindrome no.')
+else:
+  print('this no.is not pallindrome no.')
